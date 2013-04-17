@@ -4,16 +4,16 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenERP Server 6.0dev_rc3\n"
+"Project-Id-Version: OpenERP Server 6.0dev\n"
 "Report-Msgid-Bugs-To: support@openerp.com\n"
 "POT-Creation-Date: 2012-12-21 17:04+0000\n"
-"PO-Revision-Date: 2009-02-03 06:25+0000\n"
-"Last-Translator: <>\n"
+"PO-Revision-Date: 2013-03-01 11:29+0000\n"
+"Last-Translator: Olga <chikiro.spam@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-03-16 05:07+0000\n"
+"X-Launchpad-Export-Date: 2013-03-15 05:07+0000\n"
 "X-Generator: Launchpad (build 16532)\n"
 
 #. module: point_of_sale
@@ -24,7 +24,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_trans_pos_tree_today
 msgid "Sales by day"
-msgstr ""
+msgstr "Продажи за день"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.pos_category_action
@@ -57,7 +57,7 @@ msgstr ""
 #: view:pos.session:0
 #: view:report.pos.order:0
 msgid "Today"
-msgstr ""
+msgstr "Cегодня"
 
 #. module: point_of_sale
 #: field:pos.config,iface_electronic_scale:0
@@ -97,7 +97,7 @@ msgstr ""
 #: report:pos.details:0
 #: report:pos.details_summary:0
 msgid "Details of Sales"
-msgstr ""
+msgstr "Подробности продаж"
 
 #. module: point_of_sale
 #: constraint:pos.config:0
@@ -117,7 +117,7 @@ msgstr ""
 #: view:report.pos.order:0
 #: field:report.pos.order,day:0
 msgid "Day"
-msgstr ""
+msgstr "День"
 
 #. module: point_of_sale
 #: field:report.sales.by.margin.pos,product_name:0
@@ -152,7 +152,7 @@ msgstr ""
 #: report:pos.user.product:0
 #: field:report.transaction.pos,amount:0
 msgid "Amount"
-msgstr ""
+msgstr "Сумма"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_box_out
@@ -169,7 +169,7 @@ msgstr ""
 #. module: point_of_sale
 #: field:pos.config,iface_vkeyboard:0
 msgid "Virtual KeyBoard Interface"
-msgstr ""
+msgstr "Виртуальная клавиатура"
 
 #. module: point_of_sale
 #. openerp-web
@@ -190,7 +190,7 @@ msgstr ""
 #: report:pos.lines:0
 #, python-format
 msgid "Tax"
-msgstr ""
+msgstr "Налог"
 
 #. module: point_of_sale
 #: report:pos.user.product:0
@@ -232,7 +232,7 @@ msgstr ""
 #: model:ir.model,name:point_of_sale.model_res_partner
 #: field:report.pos.order,partner_id:0
 msgid "Partner"
-msgstr ""
+msgstr "Контрагент"
 
 #. module: point_of_sale
 #: view:pos.session:0
@@ -243,13 +243,13 @@ msgstr ""
 #: report:pos.details:0
 #: report:pos.details_summary:0
 msgid "Total of the day"
-msgstr ""
+msgstr "Итоги дня"
 
 #. module: point_of_sale
 #: view:report.pos.order:0
 #: field:report.pos.order,average_price:0
 msgid "Average Price"
-msgstr ""
+msgstr "Средняя цена"
 
 #. module: point_of_sale
 #: view:pos.order:0
@@ -264,13 +264,13 @@ msgstr ""
 #. module: point_of_sale
 #: report:pos.lines:0
 msgid "Disc. (%)"
-msgstr ""
+msgstr "Скидка (%)"
 
 #. module: point_of_sale
 #: report:pos.details:0
 #: report:pos.details_summary:0
 msgid "Total discount"
-msgstr ""
+msgstr "Всего скидка"
 
 #. module: point_of_sale
 #. openerp-web
@@ -295,7 +295,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_trans_pos_tree_month
 msgid "Sales by month"
-msgstr ""
+msgstr "Продажи за месяц"
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.soda_orange
@@ -307,12 +307,12 @@ msgstr ""
 #: view:report.sales.by.user.pos:0
 #: view:report.sales.by.user.pos.month:0
 msgid "Sales by User"
-msgstr ""
+msgstr "Продажи пользователя"
 
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Disc.(%)"
-msgstr ""
+msgstr "Скидка (%)"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:1006
@@ -324,7 +324,7 @@ msgstr ""
 #: view:report.pos.order:0
 #: field:report.pos.order,price_total:0
 msgid "Total Price"
-msgstr ""
+msgstr "Итоговая цена"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.leffe_brune_33cl_product_template
@@ -342,7 +342,7 @@ msgstr ""
 #: model:ir.actions.report.xml,name:point_of_sale.pos_sales_user
 #: report:pos.sales.user:0
 msgid "Sales Report"
-msgstr ""
+msgstr "Отчет о продажах"
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.beverage
@@ -363,7 +363,7 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.details:0
 msgid "Dates"
-msgstr ""
+msgstr "Даты"
 
 #. module: point_of_sale
 #: field:pos.category,parent_id:0
@@ -386,13 +386,13 @@ msgstr ""
 #: field:report.sales.by.margin.pos,total:0
 #: field:report.sales.by.margin.pos.month,total:0
 msgid "Margin"
-msgstr ""
+msgstr "Маржа"
 
 #. module: point_of_sale
 #: field:pos.discount,discount:0
 #: field:pos.order.line,discount:0
 msgid "Discount (%)"
-msgstr ""
+msgstr "Скидка (%)"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_speciale_product_template
@@ -427,12 +427,12 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.order.line:0
 msgid "Total qty"
-msgstr ""
+msgstr "Общее кол-во"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.fanta_orange_33cl_product_template
 msgid "Fanta Orange 33cl"
-msgstr ""
+msgstr "Фанта Апельсин 0,33л"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:420
@@ -449,12 +449,12 @@ msgstr ""
 #: code:addons/point_of_sale/point_of_sale.py:512
 #, python-format
 msgid "error!"
-msgstr ""
+msgstr "ошибка!"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_report_sales_by_user_pos_month
 msgid "Sales by User Monthly"
-msgstr ""
+msgstr "Продажи пользователя за месяц"
 
 #. module: point_of_sale
 #: help:pos.session,cash_register_difference:0
@@ -471,7 +471,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.Onions_product_template
 msgid "Onions"
-msgstr ""
+msgstr "Лук"
 
 #. module: point_of_sale
 #: view:pos.session:0
@@ -495,7 +495,7 @@ msgstr ""
 #. module: point_of_sale
 #: help:res.users,ean13:0
 msgid "BarCode"
-msgstr ""
+msgstr "Штрихкод"
 
 #. module: point_of_sale
 #: help:pos.category,image_medium:0
@@ -513,7 +513,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.ui.menu,name:point_of_sale.menu_point_of_sale
 msgid "Daily Operations"
-msgstr ""
+msgstr "Операции за день"
 
 #. module: point_of_sale
 #. openerp-web
@@ -548,7 +548,7 @@ msgstr ""
 #. module: point_of_sale
 #: selection:report.pos.order,month:0
 msgid "August"
-msgstr ""
+msgstr "Август"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.pepsi_max_lemon_33cl_product_template
@@ -558,7 +558,7 @@ msgstr ""
 #. module: point_of_sale
 #: selection:report.pos.order,month:0
 msgid "June"
-msgstr ""
+msgstr "Июнь"
 
 #. module: point_of_sale
 #: view:pos.order.line:0
@@ -580,7 +580,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.fanta_orange_50cl_product_template
 msgid "Fanta Orange 50cl"
-msgstr ""
+msgstr "Фанта Апельсин 0,5л"
 
 #. module: point_of_sale
 #: field:pos.category,child_id:0
@@ -626,7 +626,7 @@ msgstr ""
 #: report:all.closed.cashbox.of.the.day:0
 #: field:pos.session,stop_at:0
 msgid "Closing Date"
-msgstr ""
+msgstr "Дата закрытия"
 
 #. module: point_of_sale
 #: view:pos.session:0
@@ -636,7 +636,7 @@ msgstr ""
 #. module: point_of_sale
 #: selection:report.pos.order,month:0
 msgid "October"
-msgstr ""
+msgstr "Октябрь"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_light_1l_product_template
@@ -647,7 +647,7 @@ msgstr ""
 #: report:pos.details:0
 #: report:pos.details_summary:0
 msgid "Summary"
-msgstr ""
+msgstr "Сводка"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.lays_naturel_45g_product_template
@@ -666,7 +666,7 @@ msgstr ""
 #: field:report.sales.by.user.pos,qty:0
 #: field:report.sales.by.user.pos.month,qty:0
 msgid "Quantity"
-msgstr ""
+msgstr "Количество"
 
 #. module: point_of_sale
 #: field:pos.order.line,name:0
@@ -683,12 +683,12 @@ msgstr ""
 #. module: point_of_sale
 #: view:account.bank.statement:0
 msgid "Period"
-msgstr ""
+msgstr "Период"
 
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Net Total:"
-msgstr ""
+msgstr "Чистый итог:"
 
 #. module: point_of_sale
 #: model:ir.actions.client,name:point_of_sale.action_client_pos_menu
@@ -698,7 +698,7 @@ msgstr ""
 #. module: point_of_sale
 #: report:pos.details_summary:0
 msgid "Mode of Payment"
-msgstr ""
+msgstr "Способ оплаты"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_confirm
@@ -715,7 +715,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.pomme_granny_smith_product_template
 msgid "Granny Smith apples"
-msgstr ""
+msgstr "Яблоко Гренни Смит"
 
 #. module: point_of_sale
 #: help:product.product,expense_pdt:0
@@ -751,7 +751,7 @@ msgstr ""
 #: view:pos.payment.report.user:0
 #: view:pos.sale.user:0
 msgid "Print Report"
-msgstr ""
+msgstr "Печать отчёта"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_bolognese_product_template
@@ -761,7 +761,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.pizza
 msgid "Pizza"
-msgstr ""
+msgstr "Пицца"
 
 #. module: point_of_sale
 #: view:pos.session:0
@@ -773,7 +773,7 @@ msgstr ""
 #: code:addons/point_of_sale/wizard/pos_return.py:240
 #, python-format
 msgid "Add Product"
-msgstr ""
+msgstr "Добавить продукт"
 
 #. module: point_of_sale
 #: field:pos.config,name:0
@@ -801,7 +801,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:point_of_sale.action_report_pos_receipt
 #, python-format
 msgid "Receipt"
-msgstr ""
+msgstr "Чек"
 
 #. module: point_of_sale
 #: field:report.sales.by.margin.pos,net_margin_per_qty:0
@@ -906,7 +906,7 @@ msgstr ""
 #: model:ir.model,name:point_of_sale.model_account_journal
 #: field:report.pos.order,journal_id:0
 msgid "Journal"
-msgstr ""
+msgstr "Книга"
 
 #. module: point_of_sale
 #: view:pos.session:0
@@ -929,7 +929,7 @@ msgstr ""
 #: report:pos.details:0
 #: report:pos.details_summary:0
 msgid "Total paid"
-msgstr ""
+msgstr "Всего уплачено"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_session_opening
@@ -989,12 +989,12 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.fanta_orange_2l_product_template
 msgid "Fanta Orange 2L"
-msgstr ""
+msgstr "Фанта Апельсин 2л"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.perrier_1l_product_template
 msgid "Perrier 1L"
-msgstr ""
+msgstr "Перье 1л"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.spa_33cl_product_template
@@ -1117,7 +1117,7 @@ msgstr ""
 #: view:pos.order:0
 #, python-format
 msgid "Payment"
-msgstr ""
+msgstr "Платеж"
 
 #. module: point_of_sale
 #: view:report.pos.order:0
@@ -1130,7 +1130,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/pos.xml:89
 #, python-format
 msgid "Disc"
-msgstr ""
+msgstr "Скидка"
 
 #. module: point_of_sale
 #: view:pos.order:0
@@ -1179,7 +1179,7 @@ msgstr ""
 #. module: point_of_sale
 #: report:pos.details_summary:0
 msgid "Sales total"
-msgstr ""
+msgstr "Итог продаж"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1196,12 +1196,12 @@ msgstr ""
 #. module: point_of_sale
 #: field:pos.order,lines:0
 msgid "Order Lines"
-msgstr ""
+msgstr "Позиции заказа"
 
 #. module: point_of_sale
 #: view:report.transaction.pos:0
 msgid "Total Transaction"
-msgstr ""
+msgstr "Итоговая транзакция"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.chaudfontaine_petillante_50cl_product_template
@@ -1255,7 +1255,7 @@ msgstr ""
 #: view:report.sales.by.user.pos.month:0
 #: view:report.transaction.pos:0
 msgid "POS "
-msgstr ""
+msgstr "Кассовый терминал "
 
 #. module: point_of_sale
 #: report:account.statement:0
@@ -1266,7 +1266,7 @@ msgstr ""
 #. module: point_of_sale
 #: view:report.pos.order:0
 msgid "My Sales"
-msgstr ""
+msgstr "Мои продажи"
 
 #. module: point_of_sale
 #: view:pos.config:0
@@ -1281,13 +1281,13 @@ msgstr ""
 #. module: point_of_sale
 #: field:pos.order,pricelist_id:0
 msgid "Pricelist"
-msgstr ""
+msgstr "Прайс-лист"
 
 #. module: point_of_sale
 #: report:pos.details:0
 #: report:pos.details_summary:0
 msgid "Total invoiced"
-msgstr ""
+msgstr "Сумма счета"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_category
@@ -1323,7 +1323,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.poivron_jaunes_product_template
 msgid "Yellow Peppers"
-msgstr ""
+msgstr "Желтый перец"
 
 #. module: point_of_sale
 #: view:pos.order:0
@@ -1366,7 +1366,7 @@ msgstr ""
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Draft Invoice"
-msgstr ""
+msgstr "Черновик счета"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.lays_paprika_oven_150g_product_template
@@ -1492,7 +1492,7 @@ msgstr ""
 #: field:pos.session.opening,pos_session_name:0
 #: field:pos.session.opening,pos_session_username:0
 msgid "unknown"
-msgstr ""
+msgstr "неизвестен"
 
 #. module: point_of_sale
 #: field:product.product,income_pdt:0
@@ -1515,7 +1515,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_discount
 #: view:pos.discount:0
 msgid "Apply Discount"
-msgstr ""
+msgstr "Применить скидку"
 
 #. module: point_of_sale
 #: report:account.statement:0
@@ -1532,7 +1532,7 @@ msgstr ""
 #: field:report.transaction.pos,user_id:0
 #: model:res.groups,name:point_of_sale.group_pos_user
 msgid "User"
-msgstr ""
+msgstr "Пользователь"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1566,13 +1566,13 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_report_transaction_pos
 msgid "transaction for the pos"
-msgstr ""
+msgstr "проводка для кассового терминала"
 
 #. module: point_of_sale
 #: report:pos.details:0
 #: field:report.transaction.pos,date_create:0
 msgid "Date"
-msgstr ""
+msgstr "Дата"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_box_entries
@@ -1670,7 +1670,7 @@ msgstr ""
 #: view:pos.sale.user:0
 #, python-format
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1682,7 +1682,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.pos_details_summary
 msgid "Sales (summary)"
-msgstr ""
+msgstr "Продажи (обзор)"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.nectarine_product_template
@@ -1705,7 +1705,7 @@ msgstr ""
 #: field:pos.order.line,price_unit:0
 #: report:pos.payment.report.user:0
 msgid "Unit Price"
-msgstr ""
+msgstr "Цена единицы"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1736,7 +1736,7 @@ msgstr ""
 #: view:pos.order:0
 #: view:report.transaction.pos:0
 msgid "Amount total"
-msgstr ""
+msgstr "Общая сумма"
 
 #. module: point_of_sale
 #: view:pos.session:0
@@ -1769,7 +1769,7 @@ msgstr ""
 #. module: point_of_sale
 #: field:pos.box.entries,ref:0
 msgid "Ref"
-msgstr ""
+msgstr "Ссылка"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1779,7 +1779,7 @@ msgstr ""
 #: report:pos.lines:0
 #, python-format
 msgid "Price"
-msgstr ""
+msgstr "Цена"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_light_33cl_product_template
@@ -1793,7 +1793,7 @@ msgstr ""
 #: view:report.sales.by.user.pos.month:0
 #: view:report.transaction.pos:0
 msgid "POS"
-msgstr ""
+msgstr "Кассовый терминал"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_regular_33cl_product_template
@@ -1963,7 +1963,7 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.order:0
 msgid "POS Orders"
-msgstr ""
+msgstr "Заказы кассового терминала"
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.all_closed_cashbox_of_the_day
@@ -1987,7 +1987,7 @@ msgstr ""
 #: code:addons/point_of_sale/point_of_sale.py:1142
 #, python-format
 msgid "No Pricelist !"
-msgstr ""
+msgstr "Нет прейскуранта!"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.poivron_rouges_product_template
@@ -2009,7 +2009,7 @@ msgstr ""
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Base"
-msgstr ""
+msgstr "Основной"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2055,7 +2055,7 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.order:0
 msgid "Notes"
-msgstr ""
+msgstr "Примечания"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_light_lemon_2l_product_template
@@ -2067,14 +2067,14 @@ msgstr ""
 #: report:pos.invoice:0
 #: field:pos.order,amount_tax:0
 msgid "Taxes"
-msgstr ""
+msgstr "Налоги"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_order_line
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_order_line_day
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_order_line_form
 msgid "Sale line"
-msgstr ""
+msgstr "Продать очередь"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2121,7 +2121,7 @@ msgstr ""
 #: field:report.sales.by.margin.pos.month,qty:0
 #, python-format
 msgid "Qty"
-msgstr ""
+msgstr "Кол-во"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_zero_1l_product_template
@@ -2179,7 +2179,7 @@ msgstr ""
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Fax :"
-msgstr ""
+msgstr "Факс :"
 
 #. module: point_of_sale
 #: view:pos.session:0
@@ -2273,7 +2273,7 @@ msgstr ""
 #: report:pos.details:0
 #: report:pos.details_summary:0
 msgid "Qty of product"
-msgstr ""
+msgstr "кол-во продукции"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.pomme_golden_perlim_product_template
@@ -2296,7 +2296,7 @@ msgstr ""
 #. module: point_of_sale
 #: field:pos.order,nb_print:0
 msgid "Number of Print"
-msgstr ""
+msgstr "Число печати"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_make_payment
@@ -2571,7 +2571,7 @@ msgstr ""
 #. module: point_of_sale
 #: field:pos.order.line,price_subtotal_incl:0
 msgid "Subtotal"
-msgstr ""
+msgstr "Подитог"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.carotte_product_template
@@ -2589,7 +2589,7 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.order:0
 msgid "Done"
-msgstr ""
+msgstr "Выполнено"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2600,7 +2600,7 @@ msgstr ""
 #: field:pos.order,invoice_id:0
 #, python-format
 msgid "Invoice"
-msgstr ""
+msgstr "Счет"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2625,7 +2625,7 @@ msgstr ""
 #: field:pos.order,name:0
 #: field:pos.order.line,order_id:0
 msgid "Order Ref"
-msgstr ""
+msgstr "Ссылка на заказ"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2690,7 +2690,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_report_sales_by_user_pos_month
 msgid "Sales by user monthly"
-msgstr ""
+msgstr "Продажи пользователя за месяц"
 
 #. module: point_of_sale
 #: view:pos.session:0
@@ -2714,7 +2714,7 @@ msgstr ""
 #: report:pos.invoice:0
 #, python-format
 msgid "Taxes:"
-msgstr ""
+msgstr "Налоги:"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.pepsi_max_33cl_product_template
@@ -2735,7 +2735,7 @@ msgstr ""
 #: view:report.pos.order:0
 #: field:report.pos.order,product_id:0
 msgid "Product"
-msgstr ""
+msgstr "Продукция"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_pollo_product_template
@@ -2903,7 +2903,7 @@ msgstr ""
 #: field:report.sales.by.user.pos,amount:0
 #: field:report.sales.by.user.pos.month,amount:0
 msgid "Total"
-msgstr ""
+msgstr "Всего"
 
 #. module: point_of_sale
 #: view:pos.sale.user:0
@@ -3005,7 +3005,7 @@ msgstr ""
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Invoice Date"
-msgstr ""
+msgstr "Дата выставления счета"
 
 #. module: point_of_sale
 #: field:pos.box.entries,name:0
@@ -3055,7 +3055,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/pos.xml:342
 #, python-format
 msgid "Ok"
-msgstr ""
+msgstr "ОК"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3144,7 +3144,7 @@ msgstr ""
 #: field:pos.order,shop_id:0
 #: field:report.pos.order,shop_id:0
 msgid "Shop"
-msgstr ""
+msgstr "Магазин"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/wizard/pos_box_entries.py:123
@@ -3254,7 +3254,7 @@ msgstr ""
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Supplier Invoice"
-msgstr ""
+msgstr "Счета поставщиков"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:458
@@ -3316,7 +3316,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.ui.menu,name:point_of_sale.menu_point_config_product
 msgid "Configuration"
-msgstr ""
+msgstr "Настройки"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.orval_33cl_product_template
@@ -3416,13 +3416,13 @@ msgstr ""
 #: view:res.partner:0
 #: view:res.users:0
 msgid "Point of Sale"
-msgstr ""
+msgstr "Точка продаж"
 
 #. module: point_of_sale
 #: view:pos.order:0
 #: field:pos.order,user_id:0
 msgid "Salesman"
-msgstr ""
+msgstr "Менеджер продаж"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3448,7 +3448,7 @@ msgstr ""
 #: view:report.pos.order:0
 #: selection:report.pos.order,state:0
 msgid "Invoiced"
-msgstr ""
+msgstr "Выставлен счет"
 
 #. module: point_of_sale
 #: view:pos.session.opening:0
@@ -3516,13 +3516,13 @@ msgstr ""
 #. module: point_of_sale
 #: report:pos.details_summary:0
 msgid "Mode of Taxes"
-msgstr ""
+msgstr "Режим налогов"
 
 #. module: point_of_sale
 #: field:pos.order,amount_paid:0
 #: selection:pos.order,state:0
 msgid "Paid"
-msgstr ""
+msgstr "Оплачено"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3534,7 +3534,7 @@ msgstr ""
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "PRO-FORMA"
-msgstr ""
+msgstr "Проформа"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:818
@@ -3573,7 +3573,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:point_of_sale.action_trans_pos_tree
 #: model:ir.model,name:point_of_sale.model_report_sales_by_user_pos
 msgid "Sales by user"
-msgstr ""
+msgstr "Продажи по пользователям"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_hawaii_product_template
@@ -3597,7 +3597,7 @@ msgstr ""
 #. module: point_of_sale
 #: field:pos.make.payment,payment_date:0
 msgid "Payment Date"
-msgstr ""
+msgstr "Дата платежа"
 
 #. module: point_of_sale
 #: selection:report.pos.order,month:0
@@ -3642,7 +3642,7 @@ msgstr ""
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Refund"
-msgstr ""
+msgstr "Возвраты"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3655,7 +3655,7 @@ msgstr ""
 #: code:addons/point_of_sale/report/pos_invoice.py:46
 #, python-format
 msgid "Please create an invoice for this sale."
-msgstr ""
+msgstr "Пожалуйста, выставите счет счет для этой продажи."
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.oetker_mozzarella_product_template
@@ -3681,7 +3681,7 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.order.line:0
 msgid "Sum of subtotals"
-msgstr ""
+msgstr "Сумма подитогов"
 
 #. module: point_of_sale
 #: view:pos.session.opening:0
@@ -3691,7 +3691,7 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.order:0
 msgid "Order lines"
-msgstr ""
+msgstr "Позиции заказа"
 
 #. module: point_of_sale
 #: view:pos.session.opening:0
@@ -3766,7 +3766,7 @@ msgstr ""
 #: report:pos.invoice:0
 #: report:pos.lines:0
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.act_pos_config_sessions
@@ -3875,7 +3875,7 @@ msgstr ""
 #: view:pos.order:0
 #: field:pos.order,statement_ids:0
 msgid "Payments"
-msgstr ""
+msgstr "Платежи"
 
 #. module: point_of_sale
 #: report:pos.invoice:0
@@ -3985,3 +3985,330 @@ msgstr ""
 #: field:pos.session,order_ids:0
 msgid "Orders"
 msgstr ""
+
+#~ msgid ","
+#~ msgstr ","
+
+#~ msgid "Set to draft"
+#~ msgstr "Установить в 'Черновик'"
+
+#~ msgid "Discount :"
+#~ msgstr "Скидка"
+
+#~ msgid "Order Description"
+#~ msgstr "Описание заказа"
+
+#~ msgid "Document"
+#~ msgstr "Документ"
+
+#~ msgid "Orders of the day"
+#~ msgstr "Заказы дня"
+
+#~ msgid "Select an Open Sale Order"
+#~ msgstr "Выберите открытый заказ"
+
+#~ msgid "Line Description"
+#~ msgstr "Описание позиции"
+
+#~ msgid "Detail of Sales"
+#~ msgstr "Подроюности продаж"
+
+#~ msgid "Validity Date"
+#~ msgstr "Действителен до"
+
+#~ msgid "Operation N° :"
+#~ msgstr "Операция №:"
+
+#~ msgid "VAT"
+#~ msgstr "НДС"
+
+#~ msgid "Refund Orders"
+#~ msgstr "Возврат по заказам"
+
+#~ msgid "Select default journals"
+#~ msgstr "Выбрать книгу по умолчанию"
+
+#~ msgid "VAT(%)"
+#~ msgstr "НДС(%)"
+
+#~ msgid "Order Payments"
+#~ msgstr "Платежи по заказу"
+
+#~ msgid "Date :"
+#~ msgstr "Дата :"
+
+#~ msgid "Disc :"
+#~ msgstr "Скидка :"
+
+#~ msgid "Confirm"
+#~ msgstr "Подтвердить"
+
+#~ msgid "User :"
+#~ msgstr "Пользователь :"
+
+#~ msgid "Total :"
+#~ msgstr "Итог :"
+
+#~ msgid "Reporting"
+#~ msgstr "Отчетность"
+
+#~ msgid "Point of Sale journal configuration."
+#~ msgstr "Книга настроек точки продаж."
+
+#~ msgid "Default journal"
+#~ msgstr "Книга по умолчанию"
+
+#~ msgid "Get From Order"
+#~ msgstr "Взять из заказа"
+
+#~ msgid "Invalid XML for View Architecture!"
+#~ msgstr "Неправильный XML для просмотра архитектуры!"
+
+#~ msgid "Default journals"
+#~ msgstr "Книги по умолчанию"
+
+#~ msgid "Add products"
+#~ msgstr "Добавить продукцию"
+
+#~ msgid "Define default journals"
+#~ msgstr "Определить книги по умолчанию"
+
+#~ msgid "Tel :"
+#~ msgstr "Тел.:"
+
+#~ msgid "Default rebate journal"
+#~ msgstr "Книга скидок по умолчанию"
+
+#~ msgid "Ma_ke Payment"
+#~ msgstr "Провести платеж"
+
+#~ msgid "Draft"
+#~ msgstr "Черновик"
+
+#~ msgid "E-mail :"
+#~ msgstr "Эл. почта:"
+
+#~ msgid "Sales of the day"
+#~ msgstr "Продажи дня"
+
+#~ msgid "."
+#~ msgstr "."
+
+#~ msgid "Discount"
+#~ msgstr "Скидка"
+
+#~ msgid "_Add product"
+#~ msgstr "Добавить продукцию"
+
+#~ msgid "Period:"
+#~ msgstr "Период:"
+
+#~ msgid "All the sales"
+#~ msgstr "Все пролажи"
+
+#~ msgid "Compute"
+#~ msgstr "Вычислить"
+
+#~ msgid "Create _Invoice"
+#~ msgstr "Создать счет"
+
+#~ msgid "Mode of payment"
+#~ msgstr "Режим оплаты"
+
+#~ msgid "Ma_ke payment"
+#~ msgstr "Провести платеж"
+
+#~ msgid "Code"
+#~ msgstr "Код"
+
+#~ msgid "Discount percentage"
+#~ msgstr "Процент скидки"
+
+#~ msgid "State"
+#~ msgstr "Состояние"
+
+#~ msgid "Other"
+#~ msgstr "Прочие"
+
+#~ msgid "Close"
+#~ msgstr "Закрыть"
+
+#~ msgid ""
+#~ "The Object name must start with x_ and not contain any special character !"
+#~ msgstr ""
+#~ "Название объекта должно начинаться с x_  и не должно содержать специальных "
+#~ "символов !"
+
+#~ msgid "Pos Payment"
+#~ msgstr "Платеж кассового терминала"
+
+#~ msgid "Refund "
+#~ msgstr "Возврат "
+
+#~ msgid "Invoicing"
+#~ msgstr "Выставление счетов"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "Canceled Invoice"
+#~ msgstr "Отмененный счет"
+
+#~ msgid "Default gift journal"
+#~ msgstr "Книга подарков по умолчанию"
+
+#~ msgid "All orders"
+#~ msgstr "Все заказы"
+
+#~ msgid "Sale Order"
+#~ msgstr "Заказ"
+
+#~ msgid "Sales of the month"
+#~ msgstr "Продажи месяца"
+
+#~ msgid "D_iscount"
+#~ msgstr "Скидка"
+
+#~ msgid "Date Ordered"
+#~ msgstr "Дата заказа"
+
+#~ msgid "Ce bon est valide jusqu'au"
+#~ msgstr "Купон действителен до"
+
+#~ msgid "Account Entry"
+#~ msgstr "Проводка по счету"
+
+#~ msgid "Actions"
+#~ msgstr "Действия"
+
+#~ msgid "Print Date:"
+#~ msgstr "Дата печати:"
+
+#~ msgid "Company:"
+#~ msgstr "Организация:"
+
+#~ msgid "Piece number"
+#~ msgstr "Пример числа"
+
+#~ msgid "Scan Product"
+#~ msgstr "Просмотреть результат"
+
+#, python-format
+#~ msgid "Cannot create invoice without a partner."
+#~ msgstr "Невозможно создать счет без партнера."
+
+#~ msgid "Pos order"
+#~ msgstr "Приказ на месте"
+
+#~ msgid "Scan Barcode"
+#~ msgstr "Просмотреть штрих-код"
+
+#~ msgid "Payment date"
+#~ msgstr "Дата оплаты"
+
+#~ msgid "Point Of Sale"
+#~ msgstr "Точка продажи"
+
+#, python-format
+#~ msgid "Invalid action !"
+#~ msgstr "Неверное действие !"
+
+#~ msgid "All Cashboxes Of the day :"
+#~ msgstr "Все кассовые ящики за день:"
+
+#~ msgid "Point of Sale Confirm"
+#~ msgstr "Подтверждение от ТП"
+
+#~ msgid "Add product :"
+#~ msgstr "Добавить продукт:"
+
+#~ msgid "Discount Notes"
+#~ msgstr "Заметки о скидках"
+
+#~ msgid "Scan product"
+#~ msgstr "Сканировать продукт"
+
+#~ msgid "Are you sure you want to close the statements ?"
+#~ msgstr "Вы уверены, что хотите закрыть проводки?"
+
+#~ msgid "Register Analysis"
+#~ msgstr "Зарегистрировать анализ"
+
+#~ msgid "Put Money"
+#~ msgstr "Положить деньги"
+
+#~ msgid "Box Out"
+#~ msgstr "Выдвинуть ящик"
+
+#~ msgid "Today's Sales By Current User"
+#~ msgstr "Продажи текущего пользователя за день"
+
+#~ msgid "Add payment :"
+#~ msgstr "Добавить платеж:"
+
+#~ msgid "Origin"
+#~ msgstr "Источник"
+
+#~ msgid "Will put all the orders in waiting status till being accepted"
+#~ msgstr ""
+#~ "Установит все заявки в состояние ожидания до тех пор, пока они не будут "
+#~ "приняты."
+
+#~ msgid "Cash Register Management"
+#~ msgstr "Управление фискальным регистратором"
+
+#~ msgid "Miscelleanous"
+#~ msgstr "Разное"
+
+#~ msgid "Add payment"
+#~ msgstr "Добавить платёж"
+
+#~ msgid "["
+#~ msgstr "["
+
+#~ msgid "Other Information"
+#~ msgstr "Прочая информация"
+
+#~ msgid "Product Type"
+#~ msgstr "Тип продукции"
+
+#, python-format
+#~ msgid "No valid pricelist line found !"
+#~ msgstr "Не найдено действительной строки прайс-листа!"
+
+#, python-format
+#~ msgid "No Order Lines"
+#~ msgstr "Отсутствуют строки заказа"
+
+#~ msgid "Max Discount(%)"
+#~ msgstr "Макс. скидка (%)"
+
+#~ msgid "Product for Input"
+#~ msgstr "Вводимый продкукт"
+
+#~ msgid "User who is logged into the system."
+#~ msgstr "Пользователь, зарегистрированный в системе."
+
+#, python-format
+#~ msgid ""
+#~ "You can not open a Cashbox for \"%s\".\n"
+#~ "Please close its related cash register."
+#~ msgstr ""
+#~ "Невозможно открыть кассовый ящик для \"%s\".\n"
+#~ "Требуется закрыть связанный с ним регистр."
+
+#~ msgid "Are you sure you want to close your sales ?"
+#~ msgstr "Вы уверены, что хотите закрыть продажи?"
+
+#~ msgid "Quotations"
+#~ msgstr "Предложения"
+
+#~ msgid "Output Operation"
+#~ msgstr "Операция вывода"
+
+#, python-format
+#~ msgid "Please check that income account is set to %s"
+#~ msgstr "Проверьте, что входящий счёт установлен в %s"
+
+#~ msgid "Codes"
+#~ msgstr "Коды"

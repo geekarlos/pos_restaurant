@@ -138,10 +138,8 @@ function openerp_pos_widgets(instance, module){ //module is instance.point_of_sa
                     console.warn('TODO should not get there...?');
                     return;
                 }
-                if (self.pos.get('selectedOrder').getLastOrderline()) {
-                    self.pos.get('selectedOrder').addPaymentLine(self.cashRegister);  //TODO Prevent insert repeated blak lines
-                    self.pos_widget.screen_selector.set_current_screen('payment');
-                }
+                self.pos.get('selectedOrder').addPaymentLine(self.cashRegister);
+                self.pos_widget.screen_selector.set_current_screen('payment');
             });
         },
     });
@@ -609,31 +607,12 @@ function openerp_pos_widgets(instance, module){ //module is instance.point_of_sa
             self.pos.get('products').reset(products);
 
             // filter the products according to the search string
-            this.$('.searchbox input').keyup(function(event){
+            this.$('.searchbox input').keyup(function(){
                 query = $(this).val().toLowerCase();
                 if(query){
                     var products = self.pos.db.search_product_in_category(self.category.id, query);
                     self.pos.get('products').reset(products);
                     self.$('.search-clear').fadeIn();
-                    if(event.keyCode == 13){
-                        var p = null;
-                        if(products.length > 1){
-                            i = 0;
-                            while(i < products.length){
-                                if (products[i].code == query){
-                                    p = self.pos.get('products').get(products[i]);
-                                    break;
-                                }
-                                i++;
-                            }
-                        }else if(products.length == 1){
-                            p = self.pos.get('products').get(products[0]);
-                        }
-                        if(p !== null){
-                            self.pos_widget.product_screen.product_list_widget.click_product_action(p);
-                            self.$('.search-clear').trigger('click');
-                        }
-                    }
                 }else{
                     var products = self.pos.db.get_product_by_category(self.category.id);
                     self.pos.get('products').reset(products);
@@ -879,7 +858,7 @@ function openerp_pos_widgets(instance, module){ //module is instance.point_of_sa
         renderElement: function() {
             var self = this;
             this._super();
-            this.$('.oe_pos_synch-notification-button').click(function(){
+            this.$el.click(function(){
                 self.pos.flush();
             });
         },
@@ -977,6 +956,8 @@ function openerp_pos_widgets(instance, module){ //module is instance.point_of_sa
             
                 instance.web.unblockUI();
                 self.$('.loader').animate({opacity:0},1500,'swing',function(){self.$('.loader').hide();});
+
+                self.pos.flush();
 
             }).fail(function(){   // error when loading models data from the backend
                 instance.web.unblockUI();

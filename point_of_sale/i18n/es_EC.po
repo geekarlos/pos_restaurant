@@ -1,21 +1,20 @@
-# Spanish (Ecuador) translation for openobject-addons
-# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the openobject-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* point_of_sale
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"Project-Id-Version: OpenERP Server 6.0.0-rc1\n"
+"Report-Msgid-Bugs-To: support@openerp.com\n"
 "POT-Creation-Date: 2012-12-21 17:04+0000\n"
-"PO-Revision-Date: 2012-12-21 23:00+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Spanish (Ecuador) <es_EC@li.org>\n"
+"PO-Revision-Date: 2011-01-10 22:34+0000\n"
+"Last-Translator: Cristian Salamea (Gnuthink) <ovnicraft@gmail.com>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-12-22 07:26+0000\n"
-"X-Generator: Launchpad (build 16378)\n"
+"X-Launchpad-Export-Date: 2013-03-16 05:07+0000\n"
+"X-Generator: Launchpad (build 16532)\n"
 
 #. module: point_of_sale
 #: field:report.transaction.pos,product_nb:0
@@ -77,7 +76,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:408
+#: code:addons/point_of_sale/static/src/xml/pos.xml:398
 #, python-format
 msgid "&atilde;"
 msgstr ""
@@ -132,7 +131,7 @@ msgid "Red grapefruit"
 msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1341
+#: code:addons/point_of_sale/point_of_sale.py:1343
 #, python-format
 msgid "Assign a Custom EAN"
 msgstr ""
@@ -174,7 +173,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:90
+#: code:addons/point_of_sale/static/src/xml/pos.xml:96
 #, python-format
 msgid "+/-"
 msgstr ""
@@ -185,8 +184,8 @@ msgid "Reference"
 msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1038
-#: code:addons/point_of_sale/point_of_sale.py:1054
+#: code:addons/point_of_sale/point_of_sale.py:1041
+#: code:addons/point_of_sale/point_of_sale.py:1057
 #: report:pos.invoice:0
 #: report:pos.lines:0
 #, python-format
@@ -205,7 +204,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:479
+#: code:addons/point_of_sale/static/src/xml/pos.xml:473
 #, python-format
 msgid "Weighting"
 msgstr ""
@@ -217,7 +216,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:478
+#: code:addons/point_of_sale/static/src/xml/pos.xml:472
 #, python-format
 msgid "Help needed"
 msgstr ""
@@ -275,15 +274,15 @@ msgstr "Total discount"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:447
+#: code:addons/point_of_sale/static/src/xml/pos.xml:441
 #, python-format
 msgid "Debug Window"
 msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:247
-#: code:addons/point_of_sale/static/src/xml/pos.xml:616
+#: code:addons/point_of_sale/static/src/xml/pos.xml:241
+#: code:addons/point_of_sale/static/src/xml/pos.xml:613
 #, python-format
 msgid "Change:"
 msgstr ""
@@ -316,7 +315,7 @@ msgid "Disc.(%)"
 msgstr "Desc.(%)"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1003
+#: code:addons/point_of_sale/point_of_sale.py:1006
 #, python-format
 msgid "Please define income account for this product: \"%s\" (id:%d)."
 msgstr ""
@@ -373,7 +372,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:488
+#: code:addons/point_of_sale/static/src/xml/pos.xml:482
 #, python-format
 msgid "Open Cashbox"
 msgstr ""
@@ -402,7 +401,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:486
+#: code:addons/point_of_sale/static/src/xml/pos.xml:480
 #, python-format
 msgid "Payment Request"
 msgstr ""
@@ -414,7 +413,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:482
+#: code:addons/point_of_sale/static/src/xml/pos.xml:476
 #, python-format
 msgid "Hardware Events"
 msgstr ""
@@ -573,7 +572,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:369
+#: code:addons/point_of_sale/static/src/xml/pos.xml:359
 #, python-format
 msgid "Your order has to be validated by a cashier."
 msgstr ""
@@ -610,7 +609,7 @@ msgid ""
 msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:868
+#: code:addons/point_of_sale/point_of_sale.py:867
 #, python-format
 msgid "Customer Invoice"
 msgstr ""
@@ -676,7 +675,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:459
+#: code:addons/point_of_sale/static/src/xml/pos.xml:453
 #, python-format
 msgid "Set Weight"
 msgstr ""
@@ -708,7 +707,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:463
+#: code:addons/point_of_sale/static/src/xml/pos.xml:457
 #, python-format
 msgid "Barcode Scanner"
 msgstr ""
@@ -798,7 +797,7 @@ msgstr "Tel. :"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:264
+#: code:addons/point_of_sale/static/src/xml/pos.xml:254
 #: model:ir.actions.act_window,name:point_of_sale.action_report_pos_receipt
 #, python-format
 msgid "Receipt"
@@ -980,7 +979,7 @@ msgid "User's Product"
 msgstr "User's Product"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1140
+#: code:addons/point_of_sale/point_of_sale.py:1143
 #, python-format
 msgid ""
 "You have to select a pricelist in the sale form !\n"
@@ -1033,8 +1032,8 @@ msgstr ""
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/point_of_sale.py:518
-#: code:addons/point_of_sale/static/src/xml/pos.xml:692
-#: code:addons/point_of_sale/static/src/xml/pos.xml:747
+#: code:addons/point_of_sale/static/src/xml/pos.xml:689
+#: code:addons/point_of_sale/static/src/xml/pos.xml:744
 #, python-format
 msgid "return"
 msgstr ""
@@ -1046,7 +1045,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:237
+#: code:addons/point_of_sale/static/src/xml/pos.xml:235
 #, python-format
 msgid "Remaining:"
 msgstr ""
@@ -1063,7 +1062,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:484
+#: code:addons/point_of_sale/static/src/xml/pos.xml:478
 #, python-format
 msgid "Scan Item Success"
 msgstr ""
@@ -1112,8 +1111,8 @@ msgstr "Pagos por Usuario"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:209
-#: code:addons/point_of_sale/static/src/xml/pos.xml:295
+#: code:addons/point_of_sale/static/src/xml/pos.xml:215
+#: code:addons/point_of_sale/static/src/xml/pos.xml:285
 #: code:addons/point_of_sale/wizard/pos_payment.py:79
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_payment
 #: report:pos.details:0
@@ -1130,7 +1129,7 @@ msgstr "# of Lines"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:83
+#: code:addons/point_of_sale/static/src/xml/pos.xml:89
 #, python-format
 msgid "Disc"
 msgstr "Desc."
@@ -1186,7 +1185,7 @@ msgstr "Total de Ventas"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:744
+#: code:addons/point_of_sale/static/src/xml/pos.xml:741
 #, python-format
 msgid "ABC"
 msgstr ""
@@ -1213,14 +1212,14 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:491
+#: code:addons/point_of_sale/static/src/xml/pos.xml:485
 #, python-format
 msgid "Read Weighting Scale"
 msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:435
+#: code:addons/point_of_sale/static/src/xml/pos.xml:426
 #, python-format
 msgid "0.00 €"
 msgstr ""
@@ -1237,8 +1236,8 @@ msgstr "Today's Sales"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:274
-#: code:addons/point_of_sale/static/src/xml/pos.xml:334
+#: code:addons/point_of_sale/static/src/xml/pos.xml:264
+#: code:addons/point_of_sale/static/src/xml/pos.xml:324
 #, python-format
 msgid "Welcome"
 msgstr ""
@@ -1313,7 +1312,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:334
+#: code:addons/point_of_sale/static/src/xml/pos.xml:324
 #, python-format
 msgid "Choose your type of receipt:"
 msgstr ""
@@ -1350,7 +1349,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:485
+#: code:addons/point_of_sale/static/src/xml/pos.xml:479
 #, python-format
 msgid "Scan Item Unrecognized"
 msgstr ""
@@ -1361,7 +1360,7 @@ msgid "Today's Closed Cashbox"
 msgstr "Today's Closed Cashbox"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:898
+#: code:addons/point_of_sale/point_of_sale.py:897
 #, python-format
 msgid "Selected orders do not have the same session!"
 msgstr ""
@@ -1401,7 +1400,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:666
+#: code:addons/point_of_sale/static/src/xml/pos.xml:663
 #, python-format
 msgid "tab"
 msgstr ""
@@ -1413,7 +1412,7 @@ msgstr "Impuestos :"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:281
+#: code:addons/point_of_sale/static/src/xml/pos.xml:271
 #, python-format
 msgid "Thank you for shopping with us."
 msgstr ""
@@ -1446,7 +1445,7 @@ msgstr "Desc."
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:473
+#: code:addons/point_of_sale/static/src/xml/pos.xml:467
 #, python-format
 msgid "Invalid Ean"
 msgstr ""
@@ -1468,7 +1467,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:415
+#: code:addons/point_of_sale/static/src/xml/pos.xml:405
 #, python-format
 msgid "&auml;"
 msgstr ""
@@ -1504,7 +1503,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:593
+#: code:addons/point_of_sale/static/src/xml/pos.xml:590
 #, python-format
 msgid "Tax:"
 msgstr ""
@@ -1539,7 +1538,7 @@ msgstr "User"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:188
+#: code:addons/point_of_sale/static/src/xml/pos.xml:194
 #, python-format
 msgid "Kg"
 msgstr ""
@@ -1561,7 +1560,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:348
+#: code:addons/point_of_sale/static/src/xml/pos.xml:338
 #, python-format
 msgid "The scanned product was not recognized"
 msgstr ""
@@ -1611,7 +1610,7 @@ msgstr "November"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:277
+#: code:addons/point_of_sale/static/src/xml/pos.xml:267
 #, python-format
 msgid "Please scan an item or your member card"
 msgstr ""
@@ -1660,7 +1659,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:323
+#: code:addons/point_of_sale/static/src/xml/pos.xml:313
 #: view:pos.confirm:0
 #: view:pos.details:0
 #: view:pos.discount:0
@@ -1677,7 +1676,7 @@ msgstr "Cancelar"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:306
+#: code:addons/point_of_sale/static/src/xml/pos.xml:296
 #, python-format
 msgid "Please put your product on the scale"
 msgstr ""
@@ -1712,15 +1711,15 @@ msgstr "Unit Price"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:184
+#: code:addons/point_of_sale/static/src/xml/pos.xml:190
 #, python-format
 msgid "Product Weighting"
 msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:707
-#: code:addons/point_of_sale/static/src/xml/pos.xml:749
+#: code:addons/point_of_sale/static/src/xml/pos.xml:704
+#: code:addons/point_of_sale/static/src/xml/pos.xml:746
 #, python-format
 msgid "close"
 msgstr ""
@@ -1759,7 +1758,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:480
+#: code:addons/point_of_sale/static/src/xml/pos.xml:474
 #, python-format
 msgid "In Transaction"
 msgstr ""
@@ -1776,7 +1775,7 @@ msgstr "Ref"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:88
+#: code:addons/point_of_sale/static/src/xml/pos.xml:94
 #: report:pos.details:0
 #: report:pos.invoice:0
 #: report:pos.lines:0
@@ -1805,7 +1804,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:335
+#: code:addons/point_of_sale/static/src/xml/pos.xml:325
 #, python-format
 msgid "Ticket"
 msgstr ""
@@ -1865,7 +1864,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:298
+#: code:addons/point_of_sale/static/src/xml/pos.xml:288
 #, python-format
 msgid ""
 "Please insert your card in the reader and follow the instructions to "
@@ -1898,7 +1897,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:569
+#: code:addons/point_of_sale/static/src/xml/pos.xml:563
 #, python-format
 msgid "User:"
 msgstr ""
@@ -1953,7 +1952,7 @@ msgstr "Agrupar por..."
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:570
+#: code:addons/point_of_sale/static/src/xml/pos.xml:564
 #, python-format
 msgid "Shop:"
 msgstr ""
@@ -1987,7 +1986,7 @@ msgid "You have to open at least one cashbox."
 msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1139
+#: code:addons/point_of_sale/point_of_sale.py:1142
 #, python-format
 msgid "No Pricelist !"
 msgstr "No hay list de precios"
@@ -1999,7 +1998,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:680
+#: code:addons/point_of_sale/static/src/xml/pos.xml:677
 #, python-format
 msgid "caps lock"
 msgstr ""
@@ -2016,8 +2015,8 @@ msgstr "Base"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:705
-#: code:addons/point_of_sale/static/src/xml/pos.xml:745
+#: code:addons/point_of_sale/static/src/xml/pos.xml:702
+#: code:addons/point_of_sale/static/src/xml/pos.xml:742
 #, python-format
 msgid "&nbsp;"
 msgstr ""
@@ -2081,7 +2080,7 @@ msgstr "Línea de venta"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:744
+#: code:addons/point_of_sale/static/src/xml/pos.xml:741
 #, python-format
 msgid "123"
 msgstr ""
@@ -2116,7 +2115,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:78
+#: code:addons/point_of_sale/static/src/xml/pos.xml:84
 #: report:pos.details:0
 #: report:pos.payment.report.user:0
 #: report:pos.user.product:0
@@ -2202,7 +2201,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:467
+#: code:addons/point_of_sale/static/src/xml/pos.xml:461
 #, python-format
 msgid "Admin Badge"
 msgstr ""
@@ -2240,7 +2239,7 @@ msgstr "Ventas por usuario"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:568
+#: code:addons/point_of_sale/static/src/xml/pos.xml:562
 #, python-format
 msgid "Phone:"
 msgstr ""
@@ -2313,7 +2312,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:472
+#: code:addons/point_of_sale/static/src/xml/pos.xml:466
 #, python-format
 msgid "Unknown Product"
 msgstr ""
@@ -2400,7 +2399,7 @@ msgstr "Caja registradora"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:453
+#: code:addons/point_of_sale/static/src/xml/pos.xml:447
 #, python-format
 msgid "Accept Payment"
 msgstr ""
@@ -2504,16 +2503,16 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:476
+#: code:addons/point_of_sale/static/src/xml/pos.xml:470
 #, python-format
 msgid "Hardware Status"
 msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:214
-#: code:addons/point_of_sale/static/src/xml/pos.xml:435
-#: code:addons/point_of_sale/static/src/xml/pos.xml:599
+#: code:addons/point_of_sale/static/src/xml/pos.xml:220
+#: code:addons/point_of_sale/static/src/xml/pos.xml:426
+#: code:addons/point_of_sale/static/src/xml/pos.xml:596
 #: report:all.closed.cashbox.of.the.day:0
 #: report:pos.invoice:0
 #: report:pos.lines:0
@@ -2529,7 +2528,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:579
+#: code:addons/point_of_sale/static/src/xml/pos.xml:573
 #, python-format
 msgid "% discount"
 msgstr ""
@@ -2561,7 +2560,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:135
+#: code:addons/point_of_sale/static/src/xml/pos.xml:141
 #, python-format
 msgid "Search Products"
 msgstr ""
@@ -2596,7 +2595,7 @@ msgstr "Realizado"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:338
+#: code:addons/point_of_sale/static/src/xml/pos.xml:328
 #: model:ir.actions.report.xml,name:point_of_sale.pos_invoice_report
 #: report:pos.invoice:0
 #: view:pos.order:0
@@ -2607,8 +2606,8 @@ msgstr "Factura"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:693
-#: code:addons/point_of_sale/static/src/xml/pos.xml:704
+#: code:addons/point_of_sale/static/src/xml/pos.xml:690
+#: code:addons/point_of_sale/static/src/xml/pos.xml:701
 #, python-format
 msgid "shift"
 msgstr ""
@@ -2632,8 +2631,8 @@ msgstr "Ref. venta"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:519
-#: code:addons/point_of_sale/static/src/xml/pos.xml:578
+#: code:addons/point_of_sale/static/src/xml/pos.xml:513
+#: code:addons/point_of_sale/static/src/xml/pos.xml:572
 #, python-format
 msgid "With a"
 msgstr ""
@@ -2655,7 +2654,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:450
+#: code:addons/point_of_sale/static/src/xml/pos.xml:444
 #, python-format
 msgid "Payment Terminal"
 msgstr ""
@@ -2673,14 +2672,14 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:466
+#: code:addons/point_of_sale/static/src/xml/pos.xml:460
 #, python-format
 msgid "Custom Ean13"
 msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:471
+#: code:addons/point_of_sale/static/src/xml/pos.xml:465
 #, python-format
 msgid "1.54€ Lemon"
 msgstr ""
@@ -2712,7 +2711,10 @@ msgid "Sales by User Margin"
 msgstr "Sales by User Margin"
 
 #. module: point_of_sale
+#. openerp-web
+#: code:addons/point_of_sale/static/src/xml/pos.xml:427
 #: report:pos.invoice:0
+#, python-format
 msgid "Taxes:"
 msgstr "Impuestos"
 
@@ -2766,7 +2768,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:348
+#: code:addons/point_of_sale/static/src/xml/pos.xml:338
 #, python-format
 msgid "Please wait, a cashier is on the way"
 msgstr ""
@@ -2798,7 +2800,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:227
+#: code:addons/point_of_sale/static/src/xml/pos.xml:229
 #, python-format
 msgid "Paid:"
 msgstr ""
@@ -2832,7 +2834,7 @@ msgstr "Sales lines by Users"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:487
+#: code:addons/point_of_sale/static/src/xml/pos.xml:481
 #, python-format
 msgid "Payment Status"
 msgstr ""
@@ -2865,7 +2867,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:468
+#: code:addons/point_of_sale/static/src/xml/pos.xml:462
 #, python-format
 msgid "Client Badge"
 msgstr ""
@@ -2922,7 +2924,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:321
+#: code:addons/point_of_sale/static/src/xml/pos.xml:311
 #, python-format
 msgid "Please be patient, help is on the way"
 msgstr ""
@@ -3045,21 +3047,21 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:460
+#: code:addons/point_of_sale/static/src/xml/pos.xml:454
 #, python-format
 msgid "Reset"
 msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:352
+#: code:addons/point_of_sale/static/src/xml/pos.xml:342
 #, python-format
 msgid "Ok"
 msgstr "Aceptar"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:288
+#: code:addons/point_of_sale/static/src/xml/pos.xml:278
 #, python-format
 msgid "Please scan an item"
 msgstr ""
@@ -3088,8 +3090,8 @@ msgstr ""
 #: code:addons/point_of_sale/point_of_sale.py:712
 #: code:addons/point_of_sale/point_of_sale.py:756
 #: code:addons/point_of_sale/point_of_sale.py:818
-#: code:addons/point_of_sale/point_of_sale.py:898
-#: code:addons/point_of_sale/point_of_sale.py:1003
+#: code:addons/point_of_sale/point_of_sale.py:897
+#: code:addons/point_of_sale/point_of_sale.py:1006
 #: code:addons/point_of_sale/report/pos_invoice.py:46
 #: code:addons/point_of_sale/wizard/pos_box.py:23
 #: code:addons/point_of_sale/wizard/pos_box_entries.py:46
@@ -3185,7 +3187,7 @@ msgid "Chaudfontaine 1.5l"
 msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1066
+#: code:addons/point_of_sale/point_of_sale.py:1069
 #, python-format
 msgid "Trade Receivables"
 msgstr ""
@@ -3198,7 +3200,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:65
+#: code:addons/point_of_sale/static/src/xml/pos.xml:71
 #, python-format
 msgid ""
 "There are pending operations that could not be saved into the database, are "
@@ -3308,7 +3310,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:454
+#: code:addons/point_of_sale/static/src/xml/pos.xml:448
 #, python-format
 msgid "Reject Payment"
 msgstr ""
@@ -3325,7 +3327,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:521
+#: code:addons/point_of_sale/static/src/xml/pos.xml:515
 #, python-format
 msgid "discount"
 msgstr ""
@@ -3390,7 +3392,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:490
+#: code:addons/point_of_sale/static/src/xml/pos.xml:484
 #, python-format
 msgid "Print Invoice"
 msgstr ""
@@ -3477,7 +3479,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:456
+#: code:addons/point_of_sale/static/src/xml/pos.xml:450
 #, python-format
 msgid "Electronic Scale"
 msgstr ""
@@ -3526,7 +3528,7 @@ msgstr "Pagado"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:470
+#: code:addons/point_of_sale/static/src/xml/pos.xml:464
 #, python-format
 msgid "3.141Kg Oranges"
 msgstr ""
@@ -3554,7 +3556,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:469
+#: code:addons/point_of_sale/static/src/xml/pos.xml:463
 #, python-format
 msgid "Soda 33cl"
 msgstr ""
@@ -3582,7 +3584,7 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:489
+#: code:addons/point_of_sale/static/src/xml/pos.xml:483
 #: view:pos.receipt:0
 #, python-format
 msgid "Print Receipt"
@@ -3646,7 +3648,7 @@ msgstr "Refund"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:427
+#: code:addons/point_of_sale/static/src/xml/pos.xml:417
 #, python-format
 msgid "Your shopping cart is empty"
 msgstr ""
@@ -3705,8 +3707,8 @@ msgstr "Subtotal w/o Tax"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:665
-#: code:addons/point_of_sale/static/src/xml/pos.xml:742
+#: code:addons/point_of_sale/static/src/xml/pos.xml:662
+#: code:addons/point_of_sale/static/src/xml/pos.xml:739
 #, python-format
 msgid "delete"
 msgstr ""
@@ -3884,7 +3886,7 @@ msgstr "Reebolso a Proveedor"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:596
+#: code:addons/point_of_sale/static/src/xml/pos.xml:593
 #, python-format
 msgid "Discount:"
 msgstr ""
@@ -3942,7 +3944,7 @@ msgstr "Sales User Today"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:361
+#: code:addons/point_of_sale/static/src/xml/pos.xml:351
 #, python-format
 msgid "Sorry, we could not create a session for this user."
 msgstr ""
@@ -3968,7 +3970,7 @@ msgstr "Year"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:511
+#: code:addons/point_of_sale/static/src/xml/pos.xml:505
 #, python-format
 msgid "at"
 msgstr ""
@@ -3985,3 +3987,771 @@ msgstr ""
 #: field:pos.session,order_ids:0
 msgid "Orders"
 msgstr ""
+
+#~ msgid "Set to draft"
+#~ msgstr "Cambiar a borrador"
+
+#~ msgid "Discount :"
+#~ msgstr "Descuento :"
+
+#~ msgid "Piece number"
+#~ msgstr "Número referencia"
+
+#~ msgid "Order Description"
+#~ msgstr "Ref. venta"
+
+#~ msgid "Scan Product"
+#~ msgstr "Escanear producto"
+
+#~ msgid "Document"
+#~ msgstr "Documento"
+
+#~ msgid "Orders of the day"
+#~ msgstr "Ventas del día"
+
+#~ msgid ","
+#~ msgstr ","
+
+#~ msgid "Line Description"
+#~ msgstr "Descipción línea"
+
+#~ msgid "Pos order"
+#~ msgstr "Venta TPV"
+
+#~ msgid "Detail of Sales"
+#~ msgstr "Detalle de ventas"
+
+#~ msgid "Code"
+#~ msgstr "Código"
+
+#~ msgid "Validity Date"
+#~ msgstr "Fecha caducidad"
+
+#~ msgid "Refund Orders"
+#~ msgstr "Devoluciones"
+
+#~ msgid "Select default journals"
+#~ msgstr "Seleccione los diarios por defecto"
+
+#~ msgid "VAT(%)"
+#~ msgstr "IVA(%)"
+
+#~ msgid "Order Payments"
+#~ msgstr "Pagos de la venta"
+
+#~ msgid "Date :"
+#~ msgstr "Fecha :"
+
+#~ msgid "Ma_ke Payment"
+#~ msgstr "_Realizar pago"
+
+#~ msgid "State"
+#~ msgstr "Estado"
+
+#~ msgid "Point Of Sale"
+#~ msgstr "Terminal punto de venta (TPV)"
+
+#~ msgid "Reporting"
+#~ msgstr "Informe"
+
+#~ msgid "Point of Sale journal configuration."
+#~ msgstr "Configuración Terminal Punto de Venta"
+
+#~ msgid "Default journal"
+#~ msgstr "Diario por defecto"
+
+#~ msgid "Default Receivable"
+#~ msgstr "A cobrar por defecto"
+
+#~ msgid "Get From Order"
+#~ msgstr "Importar pedido venta"
+
+#~ msgid "Invalid XML for View Architecture!"
+#~ msgstr "¡XML inválido para la definición de la vista!"
+
+#~ msgid "POS Lines of the day"
+#~ msgstr "Líneas TPV del día"
+
+#~ msgid "Default journals"
+#~ msgstr "Diarios por defecto"
+
+#~ msgid "Add products"
+#~ msgstr "Añadir productos"
+
+#~ msgid "POS Lines"
+#~ msgstr "Líneas TPV"
+
+#~ msgid "Sales Order POS"
+#~ msgstr "Ventas TPV"
+
+#~ msgid "Define default journals"
+#~ msgstr "Definir diarios por defecto"
+
+#~ msgid "Default rebate journal"
+#~ msgstr "Diario de devoluciones por defecto"
+
+#~ msgid "Wizard default journals"
+#~ msgstr "Asistente diarios por defecto"
+
+#~ msgid "E-mail :"
+#~ msgstr "E-mail :"
+
+#~ msgid "Sales of the day"
+#~ msgstr "Ventas del día"
+
+#~ msgid "Discount"
+#~ msgstr "Descuento"
+
+#~ msgid "Payment Name"
+#~ msgstr "Descripción pago"
+
+#~ msgid "_Add product"
+#~ msgstr "_Añadir producto"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "Period:"
+#~ msgstr "Periodo:"
+
+#~ msgid "All the sales"
+#~ msgstr "Todas las ventas"
+
+#~ msgid "Compute"
+#~ msgstr "Calcular"
+
+#~ msgid "Create _Invoice"
+#~ msgstr "Crear _Factura"
+
+#~ msgid "Mode of payment"
+#~ msgstr "Modo de pago"
+
+#~ msgid "Ma_ke payment"
+#~ msgstr "_Realizar pago"
+
+#~ msgid "Discount percentage"
+#~ msgstr "Porcentaje descuento"
+
+#~ msgid "Refund order :"
+#~ msgstr "Devolución :"
+
+#~ msgid ""
+#~ "The Object name must start with x_ and not contain any special character !"
+#~ msgstr ""
+#~ "¡El nombre del objeto debe empezar con x_ y no contener ningún carácter "
+#~ "especial!"
+
+#~ msgid "Pos Payment"
+#~ msgstr "Pago TPV"
+
+#~ msgid "Create Invoice"
+#~ msgstr "Crear factura"
+
+#~ msgid "Refund "
+#~ msgstr "Devolución "
+
+#~ msgid "Invoicing"
+#~ msgstr "Facturación"
+
+#~ msgid "Canceled Invoice"
+#~ msgstr "Factura cancelada"
+
+#~ msgid "Piece Number"
+#~ msgstr "Número ref."
+
+#~ msgid "Default gift journal"
+#~ msgstr "Diario de vales por defecto"
+
+#~ msgid "All orders"
+#~ msgstr "Todas las ventas"
+
+#~ msgid "Sales of the month"
+#~ msgstr "Ventas del mes"
+
+#~ msgid "D_iscount"
+#~ msgstr "D_escuento"
+
+#~ msgid "Date Ordered"
+#~ msgstr "Fecha venta"
+
+#~ msgid "Account Entry"
+#~ msgstr "Asiento contable"
+
+#~ msgid "Payment Term"
+#~ msgstr "Plazo de pago"
+
+#~ msgid "Actions"
+#~ msgstr "Acciones"
+
+#~ msgid "Print Date:"
+#~ msgstr "Fecha impresión:"
+
+#~ msgid "Company:"
+#~ msgstr "Compañía:"
+
+#~ msgid "Discount Notes"
+#~ msgstr "Notas por descuentos"
+
+#~ msgid "Point of Sale Confirm"
+#~ msgstr "Confirmar Venta"
+
+#~ msgid "Invalid model name in the action definition."
+#~ msgstr "Nombre de modelo no válido en la definición de acción."
+
+#~ msgid "Add product :"
+#~ msgstr "Agregar producto :"
+
+#~ msgid "Net Total"
+#~ msgstr "Total Neto"
+
+#~ msgid "All Cashboxes Of the day :"
+#~ msgstr "Todas las cajas del dia"
+
+#~ msgid "Pos Box Out"
+#~ msgstr "Pos Box Out"
+
+#~ msgid "Register Analysis"
+#~ msgstr "Analisis de Registros"
+
+#~ msgid "Are you sure you want to close the statements ?"
+#~ msgstr "Are you sure you want to close the statements ?"
+
+#~ msgid "Scan product"
+#~ msgstr "Scanear Producto"
+
+#~ msgid "Add payment :"
+#~ msgstr "Agregar Pago"
+
+#~ msgid "Box Out"
+#~ msgstr "Box Out"
+
+#~ msgid "Today's Sales By Current User"
+#~ msgstr "Today's Sales By Current User"
+
+#~ msgid "VAT"
+#~ msgstr "Impuesto"
+
+#~ msgid "Will put all the orders in waiting status till being accepted"
+#~ msgstr "Will put all the orders in waiting status till being accepted"
+
+#~ msgid "Add payment"
+#~ msgstr "Agregar Pago"
+
+#~ msgid "Miscelleanous"
+#~ msgstr "Miscelleanous"
+
+#~ msgid "Other Information"
+#~ msgstr "Otra información"
+
+#~ msgid "Product Type"
+#~ msgstr "Tipo de producto"
+
+#~ msgid "Max Discount(%)"
+#~ msgstr "Max Discount(%)"
+
+#, python-format
+#~ msgid "No valid pricelist line found !"
+#~ msgstr "No valid pricelist line found !"
+
+#~ msgid "["
+#~ msgstr "["
+
+#~ msgid "User who is logged into the system."
+#~ msgstr "User who is logged into the system."
+
+#~ msgid "Product for Input"
+#~ msgstr "Product for Input"
+
+#~ msgid "Are you sure you want to close your sales ?"
+#~ msgstr "Are you sure you want to close your sales ?"
+
+#~ msgid "To count"
+#~ msgstr "To count"
+
+#, python-format
+#~ msgid "You don't have enough access to validate this sale!"
+#~ msgstr "You don't have enough access to validate this sale!"
+
+#~ msgid "Quotations"
+#~ msgstr "Peticiones"
+
+#~ msgid "Delay Payment"
+#~ msgstr "Delay Payment"
+
+#~ msgid "This field authorize the automatic creation of the cashbox"
+#~ msgstr "This field authorize the automatic creation of the cashbox"
+
+#~ msgid "Codes"
+#~ msgstr "Códigos"
+
+#, python-format
+#~ msgid "Please check that income account is set to %s"
+#~ msgstr "Please check that income account is set to %s"
+
+#~ msgid "Products for Output Operations"
+#~ msgstr "Products for Output Operations"
+
+#~ msgid "Sale by Date and User"
+#~ msgstr "Sale by Date and User"
+
+#, python-format
+#~ msgid ""
+#~ "Cannot delete a point of sale which is closed or contains confirmed "
+#~ "cashboxes!"
+#~ msgstr ""
+#~ "Cannot delete a point of sale which is closed or contains confirmed "
+#~ "cashboxes!"
+
+#~ msgid "Create Date"
+#~ msgstr "Create Date"
+
+#~ msgid "Save & New"
+#~ msgstr "Grabar & Nuevo"
+
+#~ msgid "Check Details"
+#~ msgstr "Check Details"
+
+#~ msgid "Contract Number"
+#~ msgstr "Contract Number"
+
+#~ msgid "Partner Ref."
+#~ msgstr "Partner Ref."
+
+#~ msgid "Close Statements"
+#~ msgstr "Close Statements"
+
+#~ msgid "Extended Configureation"
+#~ msgstr "Extended Configureation"
+
+#~ msgid "Type of Receipt"
+#~ msgstr "Type of Receipt"
+
+#~ msgid "Accepted Sales"
+#~ msgstr "Ventas Aceptadas"
+
+#~ msgid ""
+#~ "This field authorize Validation of Cashbox without checking ending details"
+#~ msgstr ""
+#~ "This field authorize Validation of Cashbox without checking ending details"
+
+#~ msgid "Payment date"
+#~ msgstr "Fecha de Pago"
+
+#, python-format
+#~ msgid "Create line failed !"
+#~ msgstr "Create line failed !"
+
+#, python-format
+#~ msgid "Invalid action !"
+#~ msgstr "Accion Invalida !"
+
+#~ msgid "Point of sale return"
+#~ msgstr "Point of sale return"
+
+#~ msgid "Product for expenses"
+#~ msgstr "Product for expenses"
+
+#~ msgid "Sales for Current User"
+#~ msgstr "Sales for Current User"
+
+#~ msgid "Extended Filters..."
+#~ msgstr "Filtros extendidos..."
+
+#~ msgid "Internal Note"
+#~ msgstr "Notas internas"
+
+#~ msgid "Companies"
+#~ msgstr "Companias"
+
+#, python-format
+#~ msgid "UserError "
+#~ msgstr "Error de Usuario "
+
+#, python-format
+#~ msgid "You can't modify this order. It has already been paid"
+#~ msgstr "No puede modificar esta orden. Ya ha sido pagada"
+
+#~ msgid "Return Picking"
+#~ msgstr "Devolver paquete"
+
+#~ msgid "Information"
+#~ msgstr "Información"
+
+#~ msgid "Input Operations"
+#~ msgstr "Operaciones Entrantes"
+
+#~ msgid "Sale by Users"
+#~ msgstr "Ventas por usuario"
+
+#~ msgid "Payment For Sale"
+#~ msgstr "Pago de Venta"
+
+#~ msgid "First Name"
+#~ msgstr "Primer Nombre"
+
+#~ msgid "Other"
+#~ msgstr "Otro"
+
+#~ msgid "Barcode"
+#~ msgstr "Codigo de Barras"
+
+#~ msgid "Output Operations"
+#~ msgstr "Operaciones Salientes"
+
+#~ msgid "]"
+#~ msgstr "]"
+
+#~ msgid "Select an Open Sale Order"
+#~ msgstr "Seleccionar una orden abierta"
+
+#~ msgid "Order date"
+#~ msgstr "Fecha de Orden"
+
+#~ msgid "Account"
+#~ msgstr "Cuenta"
+
+#~ msgid "Salesman Manager"
+#~ msgstr "Gerente de Ventas"
+
+#~ msgid "Sale Order"
+#~ msgstr "Orden de Venta"
+
+#~ msgid "Payment Report For Sale"
+#~ msgstr "Reporte de pago para ventas"
+
+#~ msgid "Special Journal"
+#~ msgstr "Diario Especial"
+
+#~ msgid "All closed cashbox of the day"
+#~ msgstr "Todos los cierre de caja del dia"
+
+#~ msgid "Connected Salesman"
+#~ msgstr "Connected Salesman"
+
+#~ msgid ""
+#~ "\n"
+#~ "Main features :\n"
+#~ " - Fast encoding of the sale.\n"
+#~ " - Allow to choose one payment mode (the quick way) or to split the payment "
+#~ "between several payment mode.\n"
+#~ " - Computation of the amount of money to return.\n"
+#~ " - Create and confirm picking list automatically.\n"
+#~ " - Allow the user to create invoice automatically.\n"
+#~ " - Allow to refund former sales.\n"
+#~ "\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "Caracteristicas Principales :\n"
+#~ " - Rapido registro de ventas.\n"
+#~ " - Permite seleccionar modos de pago o dividir el pago entre varios modos.\n"
+#~ " - Calculo de montos de dinero a devolver.\n"
+#~ " - Crear y confirmar automaticamente el paquete de venta.\n"
+#~ " - Permitir a los usuarios crear facturas automaticamente.\n"
+#~ " - Permitir reebolsar las ventas.\n"
+#~ "\n"
+#~ "    "
+
+#~ msgid "Price method"
+#~ msgstr "Metodo para precio"
+
+#~ msgid "Print the receipt of the sale"
+#~ msgstr "Print the receipt of the sale"
+
+#~ msgid "Picking List"
+#~ msgstr "Paquete de venta"
+
+#~ msgid "Month -1"
+#~ msgstr "Month -1"
+
+#, python-format
+#~ msgid "Error !"
+#~ msgstr "Error !"
+
+#~ msgid "Sale Confirm"
+#~ msgstr "Confirmar Venta"
+
+#~ msgid "state"
+#~ msgstr "Estado"
+
+#~ msgid "Prices"
+#~ msgstr "Precios"
+
+#, python-format
+#~ msgid "Please provide an account for the product: %s"
+#~ msgstr "Por favor configure una cuenta para el producto: %s"
+
+#~ msgid "Automatic Opening"
+#~ msgstr "Apertura automatica"
+
+#~ msgid "Discount(Amount)"
+#~ msgstr "Desc(monto)"
+
+#, python-format
+#~ msgid "Active ID is not found"
+#~ msgstr "ID Activo no fue encontrado"
+
+#~ msgid "Is accompte"
+#~ msgstr "Segun"
+
+#~ msgid "Start Date"
+#~ msgstr "Fecha inicial"
+
+#, python-format
+#~ msgid "No order lines defined for this sale "
+#~ msgstr "No order lines defined for this sale "
+
+#~ msgid "Customer Note"
+#~ msgstr "Observaciones de cliente"
+
+#, python-format
+#~ msgid "No order lines defined for this sale."
+#~ msgstr "No order lines defined for this sale."
+
+#~ msgid "Quotation"
+#~ msgstr "Cotizacion"
+
+#~ msgid "Journal Configuration"
+#~ msgstr "Configuracion de Diario"
+
+#~ msgid "Get From Sale"
+#~ msgstr "Obtener de la Venta"
+
+#~ msgid "Sales lines Report"
+#~ msgstr "Reporte de Ventas"
+
+#~ msgid "Box Entries"
+#~ msgstr "Box Entries"
+
+#~ msgid "Tax excluded"
+#~ msgstr "Tax excluded"
+
+#~ msgid "Discount Control"
+#~ msgstr "Desc. Control"
+
+#~ msgid "Closing Balance"
+#~ msgstr "Saldo al Cierre"
+
+#~ msgid "End Date"
+#~ msgstr "Fecha final"
+
+#~ msgid "Max Difference for Cashboxes"
+#~ msgstr "Max Difference for Cashboxes"
+
+#~ msgid "Yes"
+#~ msgstr "Si"
+
+#~ msgid "Point of Sale Cash Register Analysis"
+#~ msgstr "Point of Sale Cash Register Analysis"
+
+#~ msgid "Product Description"
+#~ msgstr "Descripción del producto"
+
+#~ msgid "Num.File"
+#~ msgstr "Num.Archivo"
+
+#~ msgid "Return lines"
+#~ msgstr "Return lines"
+
+#~ msgid "Serial Number"
+#~ msgstr "Num Serie"
+
+#, python-format
+#~ msgid "You have to open at least one cashbox"
+#~ msgstr "You have to open at least one cashbox"
+
+#~ msgid "Last Output Picking"
+#~ msgstr "Ultimo Guia de Remision Saliente"
+
+#~ msgid "Add Discount"
+#~ msgstr "Agregar Desc."
+
+#~ msgid "Refunded Quantity"
+#~ msgstr "Devolver cantidad"
+
+#~ msgid "Scan Barcode"
+#~ msgstr "Escanear Cod.Barra"
+
+#~ msgid "Sales Order"
+#~ msgstr "Orden de Venta"
+
+#~ msgid "Confirmed"
+#~ msgstr "Confirmado"
+
+#~ msgid "Confirm"
+#~ msgstr "Confirm"
+
+#~ msgid "Sales Lines"
+#~ msgstr "Sales Lines"
+
+#~ msgid "Discount "
+#~ msgstr "Discount "
+
+#, python-format
+#~ msgid "Modify line failed !"
+#~ msgstr "Modify line failed !"
+
+#~ msgid "Payment name"
+#~ msgstr "Payment name"
+
+#~ msgid "Products for Input Operations"
+#~ msgstr "Products for Input Operations"
+
+#~ msgid "Today's Sales by Current User"
+#~ msgstr "Today's Sales by Current User"
+
+#~ msgid "Put Money"
+#~ msgstr "Put Money"
+
+#~ msgid "Validation Date"
+#~ msgstr "Validation Date"
+
+#~ msgid "Take Money"
+#~ msgstr "Take Money"
+
+#~ msgid "Control for Output Operations"
+#~ msgstr "Control for Output Operations"
+
+#, python-format
+#~ msgid "Message"
+#~ msgstr "Mensaje"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "Add"
+#~ msgstr "Add"
+
+#~ msgid "Draft"
+#~ msgstr "Draft"
+
+#~ msgid "Are you sure you want to open the statements ?"
+#~ msgstr "Are you sure you want to open the statements ?"
+
+#~ msgid "POS Payment Report according to date"
+#~ msgstr "POS Payment Report according to date"
+
+#~ msgid "Cashier"
+#~ msgstr "Cashier"
+
+#, python-format
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid "Close"
+#~ msgstr "Close"
+
+#~ msgid "POS Details :"
+#~ msgstr "POS Details :"
+
+#~ msgid "Please fill these fields for entries to the box:"
+#~ msgstr "Please fill these fields for entries to the box:"
+
+#, python-format
+#~ msgid "please check that account is set to %s"
+#~ msgstr "please check that account is set to %s"
+
+#~ msgid "Save & Close"
+#~ msgstr "Save & Close"
+
+#~ msgid "Running"
+#~ msgstr "Running"
+
+#~ msgid "All Cashboxes Of the day"
+#~ msgstr "All Cashboxes Of the day"
+
+#~ msgid "Advance"
+#~ msgstr "Advance"
+
+#~ msgid "    Today    "
+#~ msgstr "    Today    "
+
+#~ msgid "Remboursed"
+#~ msgstr "Remboursed"
+
+#~ msgid "Opened Sales"
+#~ msgstr "Opened Sales"
+
+#, python-format
+#~ msgid "Cash registers are already closed."
+#~ msgstr "Registros de caja ya están cerrados."
+
+#~ msgid "The name of the journal must be unique per company !"
+#~ msgstr "¡El nombre del diaro debe ser único por compañía!"
+
+#~ msgid "Open Cash Registers"
+#~ msgstr "Abrir cajas Registradoras"
+
+#, python-format
+#~ msgid "No Order Lines"
+#~ msgstr "No tiene detalle de venta"
+
+#~ msgid "Add product"
+#~ msgstr "Agregar Producto"
+
+#, python-format
+#~ msgid "Close Cash Registers"
+#~ msgstr "Cerrar Caja Registradora"
+
+#~ msgid "Error! You can not create recursive companies."
+#~ msgstr "¡Error! No puede crear compañías recursivas."
+
+#, python-format
+#~ msgid "There is no income account defined for this product: \"%s\" (id:%d)"
+#~ msgstr ""
+#~ "No se ha definido una cuenta de ingresos para este producto: \"%s\" (id:%d)"
+
+#~ msgid "The cash register must be opened to be able to execute a payment."
+#~ msgstr "El registro de caja debe estar abierto para poder efectuar un pago."
+
+#, python-format
+#~ msgid ""
+#~ "There is no receivable account defined for this journal: \"%s\" (id:%d)"
+#~ msgstr ""
+#~ "No se ha definido una cuenta a cobrar para este diario : \"%s\" (id:%d)"
+
+#~ msgid "Close Cash Register"
+#~ msgstr "Cerrar registro de caja"
+
+#~ msgid "The code of the journal must be unique per company !"
+#~ msgstr "¡El código del diario debe ser único por compañía!"
+
+#~ msgid "Output Operation"
+#~ msgstr "Salidas de caja"
+
+#~ msgid ""
+#~ "Person who uses the the cash register. It could be a reliever, a student or "
+#~ "an interim employee."
+#~ msgstr ""
+#~ "Persona que usa la caja registradora. Podría ser un sustituto, un estudiante "
+#~ "o un empleado provisional."
+
+#~ msgid "Origin"
+#~ msgstr "Origen"
+
+#~ msgid "Your Reference"
+#~ msgstr "Su referencia"
+
+#, python-format
+#~ msgid ""
+#~ "You can not open a Cashbox for \"%s\".\n"
+#~ "Please close its related cash register."
+#~ msgstr ""
+#~ "No puede abrir una caja registradora para \"%s\".\n"
+#~ "Cierre el registro de caja relacionado."
+
+#, python-format
+#~ msgid ""
+#~ "Couldn't find a pricelist line matching this product and quantity.\n"
+#~ "You have to change either the product, the quantity or the pricelist."
+#~ msgstr ""
+#~ "No se ha encontrado una línea de tarifa que concuerde con este producto y "
+#~ "cantidad.\n"
+#~ "Debe cambiar el producto, la cantidad o la tarifa."
+
+#~ msgid ""
+#~ "The amount of the voucher must be the same amount as the one on the "
+#~ "statement line"
+#~ msgstr ""
+#~ "El importe del recibo debe ser el mismo importe que el de la línea del "
+#~ "extracto"
