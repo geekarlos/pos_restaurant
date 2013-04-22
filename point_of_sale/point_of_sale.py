@@ -518,8 +518,8 @@ class pos_order(osv.osv):
                     'payment_name': _('return'),
                     'journal': cash_journal.id,
                 }, context=context)
-            order_ids.append(order_id)          
-            self.signal_paid(cr, uid, order_ids)
+            order_ids.append(order_id)
+            self.signal_paid(cr, uid, [order_id])
         return order_ids
     
     def update_order(self, cr, uid, order, partner_id, context = None):
@@ -980,6 +980,7 @@ class pos_order(osv.osv):
 
     def _create_account_move_line(self, cr, uid, ids, session=None, move_id=None, context=None):
         # Tricky, via the workflow, we only have one id in the ids variable
+        #TOFIX: Why we launch this workflow when we are closing the cashier and not when payin each order
         """Create a account move line of order grouped by products or not."""
         account_move_obj = self.pool.get('account.move')
         account_move_line_obj = self.pool.get('account.move.line')
